@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "commands": {
     "debughost": {
@@ -7,4 +8,15 @@
     }
   },
   "-vs-binding": { "ProjectOpened": [ "debughost" ] }
+=======
+{
+  "commands": {
+    "debughost": {
+      "fileName": "cmd.exe",
+      "workingDirectory": ".",
+      "arguments": "/c debughost.cmd"
+    }
+  },
+  "-vs-binding": { "ProjectOpened": [ "debughost" ] }
+>>>>>>> origin/master
 }
